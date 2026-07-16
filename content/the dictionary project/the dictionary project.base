@@ -1,0 +1,11 @@
+filters:
+  and:
+    - file.hasTag("dictionary")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - author
+      - last edited
+      - dictionary-tags

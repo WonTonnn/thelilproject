@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.hasTag("articles")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - author
+      - last edited
+      - article
+      - dictionary-tags
